@@ -95,22 +95,26 @@
 						</div>
 						<div class="col-sm-3">
 							Chi/Giống: 
-							<input type="text" title="{{tooltips['chiGiong']}}" name="chiGiong" ng-model="data.chiGiong" id="chiGiong" class="input-form form-control">
+							<div inline-text-editor context-menu="contextMenu" id="chiGiong" ng-model="data.chiGiong" contentEditable class="inline-text-editor" title="{{tooltips['chiGiong']}}" name="chiGiong"></div>
+							<!-- <input type="text" title="{{tooltips['chiGiong']}}" name="chiGiong" ng-model="data.chiGiong" id="chiGiong" class="input-form form-control"> -->
 						</div>
 					</div>
 					<div>
 						<div class="col-sm-3">
 							Phân Chi/Phân Giống: 
-							<input type="text" title="{{tooltips['phanChiPhanGiong']}}" name="phanChiPhanGiong" ng-model="data.phanChiPhanGiong" id="phanChiPhanGiong" class="input-form form-control">
+							<div inline-text-editor context-menu="contextMenu" contentEditable class="inline-text-editor" title="{{tooltips['phanChiPhanGiong']}}" name="phanChiPhanGiong" ng-model="data.phanChiPhanGiong" id="phanChiPhanGiong"></div>
+							<!-- <input type="text" title="{{tooltips['phanChiPhanGiong']}}" name="phanChiPhanGiong" ng-model="data.phanChiPhanGiong" id="phanChiPhanGiong" class="input-form form-control"> -->
 						</div>
 
 						<div class="col-sm-3">
 							Loài: 
-							<input type="text" id="loai" ng-model="data.loai" class="input-form form-control" title="{{tooltips['loai']}}" name="loai">
+							<div inline-text-editor context-menu="contextMenu" contentEditable class="inline-text-editor" id="loai" ng-model="data.loai" title="{{tooltips['loai']}}" name="loai"></div>
+							<!-- <input type="text" id="loai" ng-model="data.loai" class="input-form form-control" title="{{tooltips['loai']}}" name="loai"> -->
 						</div>
 						<div class="col-sm-3">
 							Dưới loài/phân loài: 
-							<input type="text" title="{{tooltips['duoiLoai']}}" name="duoiLoai" ng-model="data.duoiLoai" class="input-form form-control" id="duoiLoai">
+							<div inline-text-editor context-menu="contextMenu" contentEditable class="inline-text-editor" title="{{tooltips['duoiLoai']}}" name="duoiLoai" ng-model="data.duoiLoai" id="duoiLoai"></div>
+							<!-- <input type="text" title="{{tooltips['duoiLoai']}}" name="duoiLoai" ng-model="data.duoiLoai" class="input-form form-control" id="duoiLoai"> -->
 						</div>
 					</div>
 				</div>
@@ -371,7 +375,8 @@
 			<div class="row" style="margin-top: 20px;">
 				<div class="col-sm-4">
 					<label>25. Thông tin địa tầng và tuổi địa chất <span class="has-required">(*)</span>:</label>
-					<input type="text" title="{{tooltips['thongTinDiaTang']}}" name="thongTinDiaTang" ng-model="data.thongTinDiaTang" class="input-form form-control">
+					<div inline-text-editor context-menu="contextMenu" ng-model="data.thongTinDiaTang" contentEditable class="inline-text-editor" title="{{tooltips['thongTinDiaTang']}}" name="thongTinDiaTang"></div>
+					<!-- <input type="text" title="{{tooltips['thongTinDiaTang']}}" name="thongTinDiaTang" ng-model="data.thongTinDiaTang" class="input-form form-control"> -->
 				</div>
 				<div class="col-sm-4">
 					<label>26. Thông tin về dự án, đề tài đợt thu nhập mẫu  <span class="has-required">(*)</span>:</label>
